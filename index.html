@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Week Trivia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- Sign-in Screen (shown first) -->
+        <div class="signin-screen" id="signinScreen">
+            <div class="signin-container">
+                <h1>Sabrina's EduQuest</h1>
+                <div class="signin-form">
+                    <input type="text" id="studentNumber" placeholder="Enter your student number" required>
+                    <button id="signinBtn">Start Game</button>
+                </div>
+                <div class="footer">Sabrina Seher</div>
+            </div>
+        </div>
+    
+        <!-- Original Game Container (hidden initially) -->
+        <div class="container" id="gameContainer" style="display:none;">
+            <!-- Home Screen -->
+            <div class="home-screen" id="homeScreen">
+                <h1>Sabrina's EduQuest</h1> 
+
+            <div class="rules-panel">
+                <h2>How to Play:</h2>
+                
+                <li>10 levels of teacher-themed trivia questions</li>
+                <li>Answer correctly to advance to the next level</li>
+                <li>2 retry attempts if you answer wrong</li>
+                <li>Questions get progressively harder</li>
+                <li>Complete all levels to win!</li>
+            </div>
+                
+                <button class="btn btn-start" id="startBtn">Start Game</button>
+            </div>
+            
+            <!-- Game Screen -->
+            <div class="game-screen" id="gameScreen">
+                <div class="header">
+                    <div class="level-display">Level <span id="currentLevel">1</span>/10</div>
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question" id="questionText">Loading question...</div>
+                </div>
+                
+                <div class="options-container" id="optionsContainer">
+                    <!-- Options will be inserted here by JavaScript -->
+                </div>
+                
+                <div class="feedback" id="feedback"></div>
+                
+                <button class="submit-btn" id="submitBtn" disabled>Submit Answer</button>
+            </div>
+            
+            <!-- End Screen -->
+            <div class="end-screen" id="endScreen">
+                <h1>Congratulations! 🎉</h1>
+                <div class="stars">🌟🌟🌟</div>
+                <p>You've completed Sabrina's EduQuest!<p>
+                <p class="student-message">Great job, <span id="studentNumberDisplay"></span>!</p>
+                
+                <div class="prize-message">
+                    Send a screenshot to Mr.Singh!
+                    P0183923@pdsb.net
+                </div>
+                
+                <button class="btn" id="playAgainBtn">Play Again</button>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
+     
