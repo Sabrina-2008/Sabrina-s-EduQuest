@@ -68,7 +68,7 @@ const questions = {
             answer: "Fe"
         },
         {
-            question: "What is the capitol city of Canada?",
+            question: "What is the capital city of Canada?",
             options: ["Brampton", "Toronto", "Ottawa", "Caledon"],
             answer: "Ottawa"
         },
@@ -157,7 +157,7 @@ const questions = {
     level5: [
         {
             question: "What is the term for a teacher's assistant who is learning to teach?",
-            options: ["Intern", "Apprentice", "Student teacher", "Teacher candidate"],
+            options: ["Intern", "Apprentice", "Student teacher", "Co-op Student"],
             answer: "Student teacher"
         },
         {
@@ -188,7 +188,7 @@ const questions = {
             answer: "India"
         },
         {
-            question: "What is the name of the document that outlines what students should learn?",
+            question: "What is the name of the Government document that outlines what students should learn?",
             options: ["Syllabus", "Curriculum", "Lesson plan", "Pedagogy"],
             answer: "Curriculum"
         },
@@ -199,7 +199,7 @@ const questions = {
         },
         {
             question: "Who is NOT a Vice Prinicpal?",
-            options: ["Ms.Patel", "Mr.Shaw", "Ms.bhotoia", "Mr.Habib"],
+            options: ["Ms.Patel", "Mr.Shaw", "Ms.Bhotoia", "Mr.Habib"],
             answer: "Mr.Habib"
         },
         {
@@ -215,8 +215,8 @@ const questions = {
             answer: "Differentiation"
         },
         {
-            question: "Who was the first artist to reach 100 million monthly listeners on spotify?",
-            options: ["Billie Eilish", "The Weeknd", "Justin Beiber", "Drake"],
+            question: "Who was the first artist to reach 100 million monthly listeners on Spotify?",
+            options: ["Billie Eilish", "The Weeknd", "Justin Bieber", "Drake"],
             answer: "The Weeknd"
         },
         {
@@ -232,7 +232,7 @@ const questions = {
         {
             question: "Who is the Librarian?",
             options: ["Ms.Refling", "Ms. Kllapi", "Mr. Sykes", "Ms.Modi"],
-            answer: "Ms.Refling"
+            answer: "Ms.Kllapi"
         }
     ],
     level8: [
@@ -285,7 +285,7 @@ const questions = {
         },
         {
             question: "What department does Ms. Yeats teach in?",
-            options: ["Tech", "Math", "Art", "English"],
+            options: ["Tech", "Math", "Science", "English"],
             answer: "Math"
         }
     ],
